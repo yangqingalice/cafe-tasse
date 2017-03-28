@@ -149,9 +149,6 @@ video {
   right: 183px;
 }
 
-#shop {
-  right: 290px;
-}
 
 /* sections */
 
@@ -191,7 +188,7 @@ video {
 
 #section2 {
   width: 100vw;
-  height: 110vw;
+  height: 130vw;
   position: absolute;
   top: 100vw;
   z-index: +3;
@@ -250,7 +247,7 @@ video {
 #section4 {
   width: 100vw;
   position: absolute;
-  top: 224vw;
+  top: 230vw;
   z-index: +5;
   height: 45vw;
   background-color: #494444;

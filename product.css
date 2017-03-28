@@ -146,10 +146,6 @@ video {
   color: #a1b7ab;
 }
 
-#shop {
-  right: 290px;
-}
-
 /* new products */
 
 h1 {
@@ -167,20 +163,16 @@ h2 {
 }
 
 h3 {
-    font-family: Dosis, sans-serif;
-    color: #494444;
-    font-weight: 300;
-    font-size: 1.3vw;;
-    line-height: 1.8;
+  font-family: Dosis, sans-serif;
+  color: #494444;
+  font-weight: 300;
+  font-size: 1.3vw;;
+  line-height: 1.8;
 }
 
-.images {
-  position: absolute;
-}
 
 .features {
   position: absolute;
-  text-align: center;
   line-height: 1.2;
   font-family: Chonburi, serif;
   color: #494444;
@@ -188,19 +180,8 @@ h3 {
 
 
 #section3 {
-  width: 100vw;
-  position: absolute;
+  position: relative;
   top: 60px;
-  z-index: +4;
-  height: 30vw;
-}
-
-#color3-1 {
-  width: 100vw;
-  height: 20vw;
-  position: absolute;
-  background-color: #f4d495;
-  top: 5vw;
 }
 
 #image3 {
@@ -215,5 +196,139 @@ h3 {
 }
 
 #feature3 :hover {
-  color: #446353;
+  color: #527c64;
+}
+
+/* menu general layout */
+
+#menu {
+  top: 120px;
+  position: relative;
+  padding: 4px;
+  padding-right: 0 auto;
+}
+
+
+.menu {
+  width: 250px;
+  height: 290px;
+  position: relative;
+  display: inline-block;
+  margin: 2px;
+  margin-bottom: 40px;
+}
+
+.menuimage {
+  position: absolute;
+  top: 0 auto;
+  left: 0 auto;
+}
+
+h4 {
+  text-align: center;
+  font-family: Chonburi, serif;
+  color: #494444;
+  font-size: 18px;
+  position: absolute;
+  top: 270px;
+  width: 250px;
+}
+
+h4:hover {
+  color: #527c64;
+}
+
+/* image links */
+
+#napolitain {
+  background-image: url("menu/napolitain.jpg");
+  background-repeat: no-repeat;
+}
+
+#napolitain:hover {
+  background-image: url("menu/napolitain.gif");
+}
+
+#mini {
+  background-image: url("menu/mini.jpg");
+  background-repeat: no-repeat;
+}
+
+#mini:hover {
+  background-image: url("menu/mini.gif");
+}
+
+#bar {
+  background-image: url("menu/bar.jpg");
+  background-repeat: no-repeat;
+}
+
+#bar:hover {
+  background-image: url("menu/bar.gif");
+}
+
+#santos {
+  background-image: url("menu/santos.jpg");
+  background-repeat: no-repeat;
+}
+
+#santos:hover {
+  background-image: url("menu/santos.gif");
+}
+
+#fruit {
+  background-image: url("menu/fruit.jpg");
+  background-repeat: no-repeat;
+}
+
+#fruit:hover {
+  background-image: url("menu/fruit.gif");
+}
+
+
+/* screen width */
+
+@media screen and (min-width: 1030px){
+
+#menu {
+  width: 1030px;
+  margin-left: 50vw;
+  left: -525px;
+}
+}
+
+@media screen and (max-width: 1029px){
+
+#menu {
+  width: 772px;
+  margin-left: 50vw;
+  left: -396px;
+}
+}
+
+@media screen and (max-width: 771px){
+
+#menu {
+  width: 512px;
+  margin-left: 50vw;
+  left: -266px;
+}
+}
+
+@media screen and (max-width: 511px){
+
+#menu {
+  padding: 0 auto;
+  margin-left: 0;
+  left: -10px;
+
+}
+
+.menu {
+  width: 100vw;
+  height: 300px;
+  margin: 0 auto;
+  left: 0 auto;
+}
+
 }
