@@ -1,0 +1,322 @@
+/* remove built-in styling */
+
+html, html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.4;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* general style */
+
+body {
+  background-color: #494444;
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+h1 {
+  font-family: Chonburi, serif;
+  color: #494444;
+  font-size: 4vw;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+  color: #494444;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 1.8;
+}
+
+h3 {
+  font-family: Dosis, sans-serif;
+  color: #494444;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 1.8;
+  margin-top: 3vw;
+}
+
+
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+video::-webkit-media-control {
+  display: none !important;
+}
+
+video {
+  width: 100vw;
+  position: fixed;
+  z-index: -2;
+}
+
+/* navigation */
+
+#navigation {
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  z-index: +5;
+}
+
+#color {
+  height: 60px;
+  width: 100vw;
+  position: fixed;
+  background-color: #494444;
+  display: none;
+}
+
+#logo {
+  position: fixed;
+  height: 30px;
+  top: 15px;
+  left: 10px;
+}
+
+.navigation {
+  position: fixed;
+  font-family: Dosis, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+  top: 19px;
+}
+
+.navigation:hover {
+  color: #a1b7ab;
+}
+
+#contact {
+  right: 15px;
+}
+
+#news {
+  right: 110px;
+}
+
+#products {
+  right: 183px;
+}
+
+#shop {
+  right: 290px;
+}
+
+/* sections */
+
+.images {
+  position: absolute;
+}
+
+.features {
+  position: absolute;
+  text-align: center;
+  line-height: 1.2;
+  font-family: Chonburi, serif;
+  color: #494444;
+}
+
+/* section1 elegant */
+
+#section1 {
+  width: 100vw;
+  height: 88vw;
+  position: absolute;
+  top: 50vw;
+  z-index: +2;
+}
+
+#feature1-1 {
+  width: 100vw;
+}
+
+
+#image1 {
+  top: 20.5vw;
+  width: 100vw;
+}
+
+/* section2 tradition authenticity quality*/
+
+#section2 {
+  width: 100vw;
+  height: 110vw;
+  position: absolute;
+  top: 100vw;
+  z-index: +3;
+  background-color: white;
+}
+
+#feature2 {
+  top: 8vw;
+  width: 90vw;
+  left: 5vw;
+}
+
+#image2 {
+  top: 45vw;
+  width: 90vw;
+  left: 5vw;
+}
+
+/* section3 new product */
+
+#section3 {
+  width: 100vw;
+  position: absolute;
+  top: 200vw;
+  z-index: +4;
+  height: 30vw;
+}
+
+#color3-1 {
+  width: 100vw;
+  height: 20vw;
+  position: absolute;
+  background-color: #f4d495;
+  top: 5vw;
+}
+
+#image3 {
+  height: 20vw;
+  top: 5vw;
+  left: 10vw;
+}
+
+#feature3 {
+  top: 12vw;
+  left: 53vw;
+  font-size: 4vw;
+  text-align: left;
+}
+
+#feature3 :hover {
+  color: #446353;
+}
+
+/* section4 online shop */
+
+#section4 {
+  width: 100vw;
+  position: absolute;
+  top: 224vw;
+  z-index: +5;
+  height: 45vw;
+  background-color: #494444;
+}
+
+#image4 {
+  width: 100vw;
+  top: 2vw;
+}
+
+#feature4 {
+  left: 10vw;
+  top: 20vw;
+}
+
+
+input[type=email] {
+  width: 34.5vw;
+  height: 5vw;
+  background-color: #494444;
+  padding-left: 2vw;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: Dosis, sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+  text-decoration: none;
+}
+
+input[type=submit] {
+  width: 12vw;
+  height: 5.2vw;
+  background-color: #494444;
+  border: none;
+  outline: none;
+  padding: 0;
+  color: white;
+  font-family: Dosis, sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+#follow {
+  font-family: Dosis, sans-serif;
+  font-weight: 300;
+  font-size: 2vw;
+  color: white;
+  position: absolute;
+  top: 7vw;
+  left: 2vw;
+}
+
+.icon {
+  position: absolute;
+  height: 2vw;
+  top: 7vw;
+}
+
+#iconfb {
+  left: 15vw;
+}
+
+#iconins {
+  left: 17.6vw;
+}
