@@ -285,6 +285,14 @@ h4:hover {
   background-image: url("menu/fruit.gif");
 }
 
+#egg {
+  background-image: url("menu/egg.jpg");
+  background-repeat: no-repeat;
+}
+
+#egg:hover {
+  background-image: url("menu/egg.gif");
+}
 
 /* screen width */
 
